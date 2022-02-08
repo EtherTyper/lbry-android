@@ -14,6 +14,7 @@ android {
 
     defaultConfig {
         applicationId "io.lbry.browser"
+        applicationIdSuffix ".eli"
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 1701

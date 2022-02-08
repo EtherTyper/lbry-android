@@ -116,7 +116,7 @@
 
         <provider
             android:name="io.lbry.browser.LocalFileProvider"
-            android:authorities="io.lbry.browser.fileprovider"
+            android:authorities="io.lbry.browser.fileprovider.eli"
             android:grantUriPermissions="true"
             android:exported="false">
             <meta-data
