@@ -211,11 +211,6 @@ public final class Lbryio {
 
     public static void populateOutpointList(List<String> outpoints, JSONArray source) throws JSONException {
         outpoints.clear();
-        if (source != null) {
-            for (int i = 0; i < source.length(); i++) {
-                outpoints.add(source.getString(i));
-            }
-        }
     }
 
     public static User fetchCurrentUser(Context context) throws AuthTokenInvalidatedException {
